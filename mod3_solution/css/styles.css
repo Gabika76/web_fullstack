@@ -1,0 +1,44 @@
+body {
+  font-size: 16px;
+  font-family: 'Helvetica', sans-serif;
+}
+#header-nav {
+  background-color: #f6b319; 
+  border-radius: 0;
+  border: 0;
+  padding: 0px 0px 25px 15px;
+}
+#collapsable-nav {
+  border: 0;
+}
+#nav-list {
+  margin-top: 10px;
+  text-align: center;
+}
+#nav-list li:hover, #nav-list a:focus{
+  background: #61122f;
+  text-decoration: none;
+}
+.navbar-brand h1 {
+  margin-top: 0px;
+  color: blue;
+}
+#main-text {
+  height: 10px;
+  font-size: 16px;
+}
+.col-xs-12 {
+  padding: 0 40px;
+}
+.base {
+  background-color: #61122f;
+  color: #fff;
+}  
+.base h3 {
+  text-align: center;
+  padding-top: 5px;
+}
+.base p, section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
